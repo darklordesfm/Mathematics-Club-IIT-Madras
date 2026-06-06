@@ -13,3 +13,6 @@ The model is scaled up to an infinite number of oscillators ($N\rightarrow\infty
 Evaluating the integrals for these two groups as $r\rightarrow0+$ reveals the critical threshold where synchronization begins: $K_c=\frac{2}{\pi g(0)}$. This sudden transition point is classified mathematically as a supercritical pitchfork bifurcation.
 
 **Simulation:** 100 independent oscillators are initialized with normally distributed natural frequencies and uniform starting phases. The output graphs clearly visualize the phases locking together as time progresses. Furthermore, plotting the order parameter against the coupling constant confirms the theoretical math: the system's synchrony ($r$) jumps up dramatically only after $K$ surpasses the critical threshold. 
+
+Used https://github.com/fabridamicelli/kuramoto to help with our simulations.
+Idea came up after seeing https://www.youtube.com/watch?v=t-_VPRCtiUg Veritasium video
